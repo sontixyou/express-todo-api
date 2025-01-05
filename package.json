@@ -2,8 +2,9 @@
   "name": "express-todo-api",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "npx tsx --watch  src/index.ts"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
